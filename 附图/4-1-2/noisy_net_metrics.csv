@@ -1,0 +1,6 @@
+Metrics,Action Space Noise,Parameter Space Noise (Noisy Nets)
+Action Step-to-Step Variance (Jitter),0.267 (High mechanical wear),0.008 (Smoother control)
+Temporal Correlation of Exploration,None (Independent per step),High (Consistent over episode)
+Exploration Rate Tuning,Requires manual schedule,Self-annealing via gradient descent
+Escape Rate from Local Optima,Lower (Prone to cyclical actions),Higher (Sustained directional probing)
+Final Mean Reward (Last 50 Eps),55.1,118.6

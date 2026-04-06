@@ -1,0 +1,3 @@
+Configuration,Late-Stage Value Overestimation,Q-Function Landscape Noise Sensitivity,Late-Stage Reward Standard Deviation,Final Mean Reward (Last 50 Eps)
+Deterministic Target (Baseline),133.3%,High (Exploits sharp peaks),17.85,62.9
+Target Policy Smoothing,0.6%,Low (Evaluates expected neighborhood),6.03,128.1

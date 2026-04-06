@@ -1,0 +1,6 @@
+Metrics,No Target Network (DQN Baseline),Hard Update (Freq=200 steps),Soft Update (tau=0.01)
+Q-Value Estimation Overestimation,Severe (Exponential Divergence),Controlled (Periodic resets),Eliminated (Smooth tracking)
+Target Step Discontinuity (Max Jump),N/A (Continuous explosion),3.70 (Causes Loss Spikes),0.04 (Extremely Smooth)
+Network Bootstrapping Stability,Critically Unstable,Stable but Blocky,Highly Stable (Heavy Damping)
+Policy Collapse Occurrences,Inevitable (100% Failure Rate),Zero,Zero
+Final Navigation Success Score,-154.7 (Crashed),115.6 (Sub-optimal),148.4 (Optimal)

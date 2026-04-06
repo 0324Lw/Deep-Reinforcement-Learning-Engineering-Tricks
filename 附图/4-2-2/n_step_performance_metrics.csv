@@ -1,0 +1,4 @@
+Configuration,Estimation Bias,Estimation Variance,Reward Propagation Speed,Final Mean Reward (Last 50 Eps)
+1-Step TD (n=1),High (Strong reliance on $V(s)$),Low,Slow (1 step per update),73.5 ± 4.6
+Monte Carlo (n=∞),Zero,High,Fast (Full sequence),84.5 ± 21.7
+Multi-step (n=5),Moderate,Moderate,Moderate (5 steps per update),92.2 ± 4.1

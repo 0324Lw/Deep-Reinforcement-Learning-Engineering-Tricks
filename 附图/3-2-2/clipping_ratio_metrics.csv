@@ -1,0 +1,4 @@
+Clipping Configuration,Mean KL Divergence,KL Threshold Violations (>0.05),Policy Collapse Events,Final Mean Reward (Last 50 Eps)
+Unclipped (Vanilla PG),0.0229,30,Observed (Mid-training),-32.2 ± 27.1
+PPO Default (ε=0.2),0.0102,0,None,112.7 ± 4.3
+PPO Strict (ε=0.05),0.0030,0,None,79.8 ± 5.7

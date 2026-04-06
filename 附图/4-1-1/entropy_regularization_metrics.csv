@@ -1,0 +1,4 @@
+Configuration,Initial Spatial Exploration,Late-Stage Action Std Dev,Return Std Dev (Last 50 Eps),Final Mean Reward (Last 50 Eps)
+No Entropy Regularization,Poor (Premature exploitation),~ 0.02 (Rigid),4.7,18.8
+Fixed Entropy Coefficient (0.05),Extensive,~ 0.45 (Jittery flight),16.6,79.9
+Linear Decay (0.05 -> 0.001),Extensive,~ 0.15 (Smooth and precise),8.6,117.4

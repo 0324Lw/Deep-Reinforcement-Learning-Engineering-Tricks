@@ -1,0 +1,3 @@
+Architecture,Mean Value Bias (Ep 550-600),Estimation Error Propagation,Return Std Dev (Ep 550-600),Final Mean Reward (Ep 550-600)
+Single Critic (Baseline),+30.16 (Overestimation),Positive Feedback Loop,21.60,61.4
+Twin Critic (Min Operator),-1.38 (Underestimation),Buffered by Min Operator,6.24,129.1

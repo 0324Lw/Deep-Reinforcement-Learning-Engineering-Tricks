@@ -1,0 +1,6 @@
+Evaluation Metric,Baseline (Random Action Noise),Intrinsic Curiosity Module (ICM)
+State Coverage Ratio (Estimated),~ 12.5% (Localized around start),~ 78.4% (Widely distributed)
+Goal Reaching Rate (Last 100 Eps),0.0%,78.1%
+Initial Extrinsic Reward Discovery,Failed to discover,Observed around Episode 250
+Computational Overhead,Low (Standard Actor-Critic),Moderate (+Forward/Inverse Models)
+Policy Convergence Stability,N/A (Failed to learn),Stable post-discovery

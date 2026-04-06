@@ -1,0 +1,3 @@
+Configuration,Goal Substitution Rate,Positive Reward Ratio (Initial),Sample Efficiency (Eps to 90% Success),Final Mean Success Rate (Last 50 Eps)
+Standard Replay Buffer,0.0%,~ 0.01% (Random chance),N/A (Failed to converge),0.0%
+"Hindsight Experience Replay (Future, k=4)",~ 80.0% (k / (k+1)),~ 80.0% (Relabeling),297,94.4%

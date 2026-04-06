@@ -1,0 +1,6 @@
+Evaluation Metric,Fixed Max Difficulty (Baseline),Dynamic Curriculum Learning
+Initial Stage Success Rate,~ 2.0% (Exploration stagnation),~ 95.0% (At Level 1)
+Episodes to Reach Level 5,0 (Started at Level 5),224
+Episodes to Converge (>80% Global Success),> 600,264
+Demotion Events (Strategy Correction),N/A,0
+Final Evaluated Reward (Level 5),71.4 ± 8.6,170.9 ± 18.3

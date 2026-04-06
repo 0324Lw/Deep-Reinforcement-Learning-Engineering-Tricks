@@ -1,0 +1,4 @@
+Optimization Configuration,Average Epochs per Batch,Mean Approximation KL,Performance Retraction Events,Final Mean Reward (Last 50 Eps)
+Fixed 10 Epochs,10.0 (Fixed compute cost),0.048 (Exceeds target limit),Multiple occurrences,100.5 ± 11.2
+Adaptive KL Penalty,10.0 (Fixed compute cost),0.015 (Maintained via coefficient),Occasional (Feedback lag),99.5 ± 8.4
+Target KL Early Stopping,~ 4.2 (Reduced compute cost),0.012 (Strictly bounded),Zero,114.9 ± 2.1

@@ -1,0 +1,6 @@
+Metrics,Standard DQN,Dueling DQN
+State Value Generalization,Poor (Actions updated independently),High (V(s) shared across actions)
+Steps to Converge (MSE < 1.0),194,90
+Advantage Variance in Similar States,Moderate,Low (Relative advantage constrained)
+Sample Efficiency (Early Stage),Standard Baseline,Improved (Faster initial ascent)
+Final Average Reward (Last 50 Eps),97.74,99.51

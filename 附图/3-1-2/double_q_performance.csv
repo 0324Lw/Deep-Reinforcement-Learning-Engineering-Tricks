@@ -1,0 +1,6 @@
+Metrics,Standard DQN,Double DQN (DDQN)
+Value Inflation Ratio (Late Stage),~ 229.1% (Critically Inflated),~ 0.8% (Healthy)
+Single-Step Max Selection Bias,+ 0.38 (Huge Fake Spikes),~ 0.00 (Unbiased Evaluation)
+Policy Collapse Severity,High (Drastic drop post Ep-200),Zero (Maintained stability)
+Action Selection Entropy (Exploration),Corrupted by false peaks,Healthy (Objective evaluations)
+Final Task Evaluated Score,8.6 ± 24.8,143.0 ± 3.7

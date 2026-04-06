@@ -1,0 +1,6 @@
+Evaluation Metric,Uniform Replay Baseline,"Prioritized Replay (α=0.6, β=0.4→1.0)"
+Sampling Probability for Max TD Error,1.00e-04 (Equal for all),1.07e-03 (Significantly higher)
+Episodes to Reach Target Score (70),420,106
+Gradient Estimation Bias,Unbiased (Uniform expectation),Corrected via IS Weights
+Buffer Data Structure Required,Standard Array/Deque ($O(1)$),SumTree Segment Tree ($O(\log N)$)
+Relative Time per Update Step,1.0x (Baseline),~ 1.3x (Tree traversal overhead)

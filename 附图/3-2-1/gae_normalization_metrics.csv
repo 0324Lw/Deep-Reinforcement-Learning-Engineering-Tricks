@@ -1,0 +1,5 @@
+Advantage Estimation Config,Gradient Variance Scale,Target Bias Assessment,Avg PPO Policy KL Divergence,Final Mean Reward (Last 100 Eps)
+1-Step TD (λ=0.0),Low (~0.1x),High (Rely on inaccurate V),0.003 (Updates too small),68.5
+Monte Carlo (λ=1.0),High (~5.0x),Zero (Unbiased),0.025 (Erratic steps),110.3
+GAE (λ=0.95) Unnormalized,Moderate (~1.5x),Low (Weighted tradeoff),0.018 (Prone to large steps),151.6
+GAE (λ=0.95) w/ Normalization,Stable Base (1.0x),Low (Weighted tradeoff),0.010 (Consistent tracking),164.1

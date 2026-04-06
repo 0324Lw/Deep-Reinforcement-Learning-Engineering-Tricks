@@ -1,0 +1,4 @@
+Training Paradigm,Simulation Final Return,Real-World Zero-Shot Return,Sim-to-Real Degradation,Computational Time per Batch
+Baseline (No DR/DA),198.9,60.5,69.6%,1.0x
+Domain Randomization (DR),187.7,138.0,~ 18.5%,1.0x
+DR + Data Augmentation (DA),177.1,161.3,8.9%,~ 1.15x (Image transforms)

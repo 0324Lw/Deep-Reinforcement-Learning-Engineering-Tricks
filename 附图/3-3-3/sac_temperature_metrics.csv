@@ -1,0 +1,4 @@
+Configuration,Late-Stage Entropy RMSE (Target=-2.0),Exploration Behavior,Return Std Dev (Last 50 Eps),Final Mean Reward (Last 50 Eps)
+Fixed High α (0.5),1.54,Excessive random walk,18.1,26.6
+Fixed Low α (0.01),2.50,Premature convergence,4.3,79.9
+Adaptive α (Auto-tuning),0.09,Balanced and targeted,7.9,143.4
