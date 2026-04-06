@@ -1,0 +1,6 @@
+Metrics,Standard Offline Q-Learning,Conservative Q-Learning (CQL)
+OOD Q-Value Estimation Bias (Late Stage),+79.4 (Severe Overestimation),-2.6 (Lower Bound Constraint)
+In-Distribution Q-Value Estimation,Accurate,Accurate
+Policy Action Selection Bias,Shifted towards OOD actions,Constrained to Dataset Support
+Performance Stability during Training,Low (Collapses after epoch 100),High (Maintains performance)
+Final Evaluation Return (Last 50 Epochs),11.9 ± 11.2,93.3 ± 2.9

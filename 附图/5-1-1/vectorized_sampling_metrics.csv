@@ -1,0 +1,5 @@
+Architecture,Sampling Throughput (FPS),Inter-Process Comm (IPC) Overhead,Estimated Memory Footprint,Wall-clock Time to Converge (Est.)
+Single Environment,400,None,~ 150 MB,> 3600 s
+SyncVectorEnv (N=16),380,Low (Array stacking),~ 200 MB,> 3600 s
+AsyncVectorEnv (N=16),5440,Moderate (Pipe/Shared Memory),~ 2.4 GB,~ 450 s
+AsyncVectorEnv (N=128),7680,High (Context switching),~ 19.2 GB,~ 220 s (Diminishing returns)

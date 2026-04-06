@@ -1,0 +1,4 @@
+Architecture Framework,Response to OOD Disturbance,Online Adaptation Time,Inference Compute Overhead,Final Distribution Avg Return
+Standard RL (Fixed Weights),Catastrophic failure,~ 1500 Episodes (Re-training),Baseline (1.0x),72.4
+Domain Randomization (Robust),Moderate performance drop,0 Episodes (No adaptation),Baseline (1.0x),67.9
+Context-based Meta-RL,Brief drop followed by rapid recovery,~ 3-5 Episodes (Context updating),~ 1.2x (Recurrent context encoder),127.8

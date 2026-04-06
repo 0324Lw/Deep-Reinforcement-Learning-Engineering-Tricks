@@ -1,0 +1,6 @@
+Metrics,Fixed Baseline,Domain Randomization
+Training Parameter Range,Single Point (Fixed),Stochastic Distribution
+Zero-Shot Success (Ideal Params),98.4%,91.2% (Slightly conservative)
+Zero-Shot Success (30% Mass Offset),12.6% (Catastrophic),84.5% (Highly robust)
+Control Variance in Noise,High (Unstable jitter),Low (Smooth dampening)
+Sim-to-Real Performance Drop,~ 62.5% Falloff,~ 8.2% Falloff

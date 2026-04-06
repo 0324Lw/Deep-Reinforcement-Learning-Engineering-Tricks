@@ -1,0 +1,4 @@
+Architecture,Control Overshoot (%),Tolerable Delay Margin,Inference Latency Overhead,Final Evaluated Return
+Zero-Delay Baseline,45.2% (Oscillatory),~ 20 ms,0.0 ms,52.6 ± 12.8
+Action History Stacking (k=3),22.5% (Damped),~ 60 ms,+ 1.2 ms,89.1 ± 9.7
+History + Delay Injection,8.4% (Stable tracking),~ 120 ms,+ 1.2 ms,128.5 ± 5.4

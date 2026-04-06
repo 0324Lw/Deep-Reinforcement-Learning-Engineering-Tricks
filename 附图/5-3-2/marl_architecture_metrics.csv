@@ -1,0 +1,4 @@
+MARL Architecture,Training Environment Assumption,Execution Comm. Bandwidth Req.,Mean Inference Latency (Deployment),Cooperative Task Success Rate
+Independent Learning (IQL),Non-stationary,Zero (Local only),8.0 ms,Low (Sub-optimal equilibria)
+Fully Centralized (CTCE),Stationary (MDP),High (Continuous streaming),63.9 ms,High (Joint optimization)
+"CTDE (e.g., MADDPG)",Stationary (MDP),Zero (Local only),8.0 ms,High (Centralized credit assignment)

@@ -1,0 +1,3 @@
+Topology Architecture,Mean Hardware Idle Rate (Straggler),Sample Throughput Scaling,Mean Policy Lag (Staleness),Wall-clock Time to Converge (Score=70)
+"Synchronous (e.g., A2C)",~ 45% (Sequential blocking),Sub-linear (Bottlenecked by slowest),0.0 steps (Strictly on-policy),~ 35 Minutes
+"Asynchronous (e.g., IMPALA)",< 5% (Decoupled execution),Near-linear (Limited by memory bandwidth),~ 3.5 steps (Requires V-trace correction),~ 14 Minutes
