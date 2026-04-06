@@ -1,0 +1,6 @@
+Metrics,w/o Normalization,w/ Online Normalization
+Feature Dim 0 Range,"[-1.4, 1.3]","[-2.9, 2.9]"
+Feature Dim 2 Range,"[-2424.1, 3453.3]","[-3.6, 3.7]"
+Convergence Episode,~ 350,~ 100
+Final Reward (Avg last 50),93.84,120.05
+Reward Stability (Std),16.12,5.22
