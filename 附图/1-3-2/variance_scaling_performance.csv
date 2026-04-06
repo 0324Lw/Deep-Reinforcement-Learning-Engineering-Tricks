@@ -1,0 +1,6 @@
+Metrics,w/o Scaling (Raw Rewards),w/ Dynamic Variance Scaling
+Late-Stage Reward Variance (σ²),~ 232.3 (Massive),~ 1.00 (Strictly Bounded)
+Critic Target Non-stationarity,Severe (Expanding Funnel),Eliminated (Constant Scale)
+Critic MSE Loss (Ep 400-500),16.1 (Diverging),0.092 (Converged)
+Catastrophic Policy Collapse,Triggered at Ep 250,Zero (Absolute Stability)
+Final Evaluated Return (Macro),130.0 ± 35.6,266.9 ± 8.7

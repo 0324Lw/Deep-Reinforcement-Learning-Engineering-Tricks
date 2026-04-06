@@ -1,0 +1,6 @@
+Metrics,Sparse Reward (Baseline),Naive Dense Shaping (Distance),Potential-Based Reward Shaping (PBRS)
+Optimal Policy Mathematical Invariance,Preserved (No Shaping),Destroyed (Alters original MDP),Strictly Preserved (Ng's Theorem)
+Reward Hacking / Local Minima Rate,0.0% (But fails to explore),~ 89.4% (Severely trapped in corners),0.0% (Potential conserves energy in loops)
+Average Steps to Goal (Late Stage),N/A (Timeout),N/A (Trapped/Timeout),~ 68 Steps (Efficient path)
+True Task Success Rate,~ 2.5% (Only random luck),~ 10.6%,~ 98.2%
+Perceived vs True Reward Divergence,Zero (Both are identical),Massive (Agent optimizes fake score),Bounded (Aligns with true objective)

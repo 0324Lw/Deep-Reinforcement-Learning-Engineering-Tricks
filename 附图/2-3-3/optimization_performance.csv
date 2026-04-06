@@ -1,0 +1,6 @@
+Metrics,SGD + Constant LR,AdamW + Constant LR,AdamW + Cosine Annealing
+Saddle Point Escape Efficiency,Extremely Poor (> 200 Eps lost),Excellent (Rapid Penetration),Excellent (Rapid Penetration)
+Optimizer Trajectory Robustness,Severe Zig-zagging,Smooth & Direct,Smooth & Direct
+Late-Stage Policy Variance (Jitter),σ = 10.5 (Sub-optimal),σ = 21.2 (Steering Oscillation),σ = 2.3 (Silky Smooth)
+Trust Region Shock Events,0 (Too slow to cause shock),Multiple (Overshooting minimum),Zero (Perfect decay)
+Final Evaluated Driving Score,86.6 (Failed),231.5 (Jittery),229.7 (Perfect Driving)

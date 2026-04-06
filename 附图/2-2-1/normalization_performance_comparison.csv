@@ -1,0 +1,6 @@
+Metrics,Batch Normalization (CV Standard),Layer Normalization (RL Standard)
+Statistic Dependency,Batch & Sequence Dimension (Highly Coupled),Feature Dimension Only (Perfectly Isolated)
+Small Batch Size Vulnerability,Fatal (Below 32 leads to noise),Immune (Batch Size = 1 is Safe)
+Statistic Drift (Std. Dev.),1.05 (Violent Shifts),1.12 (Rock Solid)
+Critic Value Divergence Events,Multiple (Triggers Policy Collapse),Zero
+Final Evaluated Reward,-83.2 ± 21.9,145.8 ± 4.4

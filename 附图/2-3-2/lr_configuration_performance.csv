@@ -1,0 +1,6 @@
+Metrics,"Shared High LR (1e-3, 1e-3)","Shared Low LR (1e-4, 1e-4)","Differentiated LR (A:1e-4, C:1e-3)"
+Actor Update Strategy,Reckless (Oversteps gradients),Conservative (Safe),Conservative (Safe)
+Critic Target Tracking,Excellent (Rapid MSE drop),Poor (Severe tracking lag),Excellent (Rapid MSE drop)
+Trust Region Violations (Catastrophic),17 Spikes (Policy breaks),0 (Highly safe),0 (Perfectly bounded)
+Advantage Signal Quality,Good but wasted on broken Actor,Noisy (Due to lagging Critic),High Purity (Guides Actor correctly)
+Final Task Evaluated Reward,-55.1 ± 59.5,87.4 ± 9.4,164.1 ± 2.7

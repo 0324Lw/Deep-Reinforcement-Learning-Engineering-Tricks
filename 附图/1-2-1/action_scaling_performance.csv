@@ -1,0 +1,7 @@
+Metrics,Direct Physical Output,Scaled Mapping w/ Tanh
+Network Output Range,"Unbounded [-∞, +∞]","Bounded [-1, 1]"
+Hardware Command Execution,Clipped Arbitrarily by Env,"Exact [-200, 800] via Affine"
+Actor Final Layer Weight Std,~ 18.54 (Ill-conditioned),~ 0.12 (Well-conditioned)
+Max Gradient Norm Recorded,7.7e+04 (Exploded),3.3 (Stable)
+Out-of-Bound Violations (500 Eps),"> 12,500 (Hardware Damage Risk)",0 (Mathematically Impossible)
+Reward Convergence State,Collapsed at Ep 300,Converged at Ep ~100

@@ -1,0 +1,6 @@
+Metrics,Gaussian Distribution,Beta Distribution
+Mathematical Support Space,"Unbounded (-∞, +∞)","Bounded [-1, 1] via Affine"
+Action Clipping Frequency,~ 18.5% (Wasted Exploration),0.0% (Zero Clipping Required)
+Gradient Bias at Boundaries,High (Mismatch log_prob vs Actual Action),None (Mathematically Consistent)
+Catastrophic Policy Drops,Frequent (Due to False Credit Assignment),None (Stable Convergence)
+Late Stage Reward Range,"[163.2, 304.9]","[287.5, 299.4]"

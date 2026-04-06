@@ -1,0 +1,5 @@
+Strategy Profile,Avg Completion Time (s),Collision Rate (%),Pareto Optimality,Global Task Utility
+"Speed Dominant (Static w=[0.9, 0.1])",12.4 (Fastest),84.2%,Sub-optimal (Crashes),98.2
+"Safety Dominant (Static w=[0.1, 0.9])",Timeout / N/A,0.0%,Sub-optimal (Stuck),100.0
+"Linear Scalarization (Static w=[0.5, 0.5])",24.8,15.3%,Sub-optimal (Compromised),106.1
+Dynamic Pareto Balancing (Gradient Proj),16.5,1.2% (Safe Threshold),Pareto Optimal (Frontier),100.0

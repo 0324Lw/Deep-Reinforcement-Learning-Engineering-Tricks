@@ -1,0 +1,6 @@
+Metrics,Raw Reward,Hard Clipping,Tanh Soft Smoothing
+Value Network Signal Variance,Massive (σ > 500),Low (Strictly bounded),"Optimized (Bounded [-1, 1])"
+Max TD Error Recorded,6.01e+09 (Catastrophic),8.69e+02,1.40e+00 (Stable)
+Gradient Exploding Risk,Extremely High,Eliminated,Eliminated
+Policy Convergence Speed,Failed to Converge,Slow (Lost fine gradients),Fast (~100 Eps)
+Final Success Rate (Avg Last 50 Eps),9.1%,74.3%,97.2%

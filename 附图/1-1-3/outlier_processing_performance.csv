@@ -1,0 +1,6 @@
+Metrics,w/o Clipping & Filtering,w/ Clipping & Filtering
+Max Fake Observation Spike (m),18.11,0.19
+Action Jerk Max (ΔControl/Step),1.93 (Lethal to Motors),0.21 (Smooth)
+Catastrophic Forgetting Events,Multiple (>3),0 (Stable Convergence)
+Max Gradient Norm Spike (Simulated),> 1e5 (Exploding Gradients),< 5.0 (Safely Bounded)
+Late Stage Reward Std,25.09,4.49

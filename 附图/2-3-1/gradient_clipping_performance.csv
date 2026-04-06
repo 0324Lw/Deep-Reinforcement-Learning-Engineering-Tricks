@@ -1,0 +1,6 @@
+Metrics,No Clipping,Element-wise Clipping,Global Norm Clipping
+Gradient Direction Disturbance,0.00° (But Magnitude is Lethal),25.8° (Severe Distortion),0.00° (Mathematically Perfect)
+Optimizer Descent Efficacy,Diverged (Overshooting),Poor (Moves in wrong direction),"Optimal (Bounded steps, right path)"
+Catastrophic Forgetting Risk,100% (Inevitable in RL),Moderate (Causes secondary shocks),Eliminated
+Network Parameter NaN Rate,100% (Training Crashed),0% (Survived but damaged),0%
+Late-Stage Reward Variance (Robustness),N/A (Failed),σ = 13.6 (Jittery),σ = 3.7 (Ultra-stable)

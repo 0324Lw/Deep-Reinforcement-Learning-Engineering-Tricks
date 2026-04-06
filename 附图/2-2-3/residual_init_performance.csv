@@ -1,0 +1,6 @@
+Metrics,Standard ResNet Init,Residual Zero Init
+Layer 50 Accumulative Variance,~ 48.6 (Exploded),~ 0.98 (Perfect Identity)
+Action Saturation Rate (Gradient Deadzone),~ 80.4% (Lethal to Hardware),~ 6.8% (Highly Safe)
+Effective Initial Exploration Behavior,Bang-Bang Control (Crashing),Centered Gaussian (Safe Probing)
+Stagnant Warm-up Period,~ 250 Episodes (Wasted Compute),0 Episodes (Instant Learning)
+Final Navigation Success Rate,~ 68.4% (Sub-optimal),~ 96.5% (Optimal Covergence)

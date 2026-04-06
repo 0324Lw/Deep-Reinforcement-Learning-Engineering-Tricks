@@ -1,0 +1,6 @@
+Metrics,Xavier/Glorot Init,He/Kaiming Init
+Layer 15 Energy Retention (Variance),1.98e-05 (Severe Decay),0.54 (Perfectly Kept)
+Layer 30 Energy Retention (Variance),6.65e-10 (Signal Lost),0.56 (Perfectly Kept)
+Deep Layer Dead Neuron Ratio,50.5% (Highly Sparse),50.7% (Theoretical Optimum)
+Gradient Flow Quality,Poor (Vanishing Gradients),Excellent (Preserved Norms)
+Final UAV Avoidance Success Rate,~ 42.5% (Sub-optimal),~ 96.8% (Converged)

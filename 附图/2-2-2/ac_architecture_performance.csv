@@ -1,0 +1,6 @@
+Metrics,Shared Architecture,Separated Architecture
+VRAM / Parameter Usage,~ 55% (Highly Efficient),100% (High Memory Cost)
+Feature Representation,Coupled (Compromised heavily),Decoupled (Task-specific)
+Negative Gradient Interference Rate,~ 45.8% (Severe Tearing),0% (Mathematically Isolated)
+Critic Target Smoothness (Loss Std),Massive (σ=2.6),Stable (σ=0.059)
+Final Evaluated Success Rate,~ 69.9% (Sub-optimal),~ 97.4% (Global Opt)

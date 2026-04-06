@@ -1,0 +1,6 @@
+Metrics,Default Normal Initialization,Orthogonal Initialization
+Initial Action Entropy (Exploration),Near Zero (Dead Policy),Healthy (Matches intended std)
+Layer 50 Forward Activation Variance,1.0e-15 (Signal Lost),0.77 (Energy Kept)
+Layer 1 Backward Gradient Norm,1.3e-12 (Gradient Dead),3.60e-02 (Flowing)
+Policy Stagnation (Flatline) Risk,Extremely High,Eliminated
+Final Task Success Rate,~ 2.1% (Failed),~ 94.8% (Solved)
